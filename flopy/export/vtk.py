@@ -542,7 +542,7 @@ class Vtk:
                     _, n1 = cell2
                 else:
                     n0 = cell1[0]
-                    n1 = cell1[1]
+                    n1 = cell2[0]
                     k = 0
 
             array.append(hfb["hydchr"])
